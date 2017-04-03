@@ -249,14 +249,12 @@ for i=1:size(triangle, 2)
         triangle(i).negative = 1;
         negative_triangles = negative_triangles + 1;
     else
-        t_start = tic;
         while 1
             lambda_i = edge(youngest).cycle;
             lambda = setdiff(union(lambda, lambda_i), intersect(lambda, lambda_i)); 
             if isempty(lambda) break; end
             youngest = max(lambda);
             if isempty(edge(youngest).cycle)
-                t_end = toc(t_start);
                 edge(youngest).cycle = lambda;
                 edge(youngest).death_idx = triangle(i).idx;
                 triangle(i).negative = 1;
