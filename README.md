@@ -26,7 +26,7 @@ The birth and death times of the simplices are written to 'out\_file.txt'.
 ### References
 
 [1] H. Edelsbrunner, D. Letscher, and A. Zomorodian, "Topological persistence 
-    and simplification", Discrete and Computational Geometry, pp. 511-533, 2002.  
+    and simplification," Discrete and Computational Geometry, pp. 511-533, 2002.  
     
 ### License
 
