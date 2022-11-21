@@ -21,7 +21,7 @@ compute the Betti numbers for the dataset run the following command:
 
     >> ipa('in_file.pcd', 'out_file.txt', 0.003)
 
-The birth and death times of the simplices are written to 'out\_file.txt'.
+The birth and death times of the simplices are written to 'out\_file.txt.'
 
 ### References
 
