@@ -1,9 +1,9 @@
-### Incremental Persistence Algorithm
+## Incremental Persistence Algorithm
 
 This software implements the algorithms for computing topological persistence 
-as described in [1].  Given a 3D point cloud, the software computes the zeroth 
+as described in [1]. Given a 3D point cloud, the software computes the zeroth 
 (Betti 0) and first (Betti 1) homology groups which correspond to the number of 
-connected components and holes in the dataset, respectively.  This is done by first 
+connected components and holes in the dataset, respectively. This is done by first 
 approximating the input space using a Vietoris-Rips complex. Next, the simplicial 
 persistence pairs for a given resolution are computed incrementally. Finally, the 
 birth and death times of the 0- and 1-simplices are recorded to an output file. 
