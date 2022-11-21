@@ -1,4 +1,4 @@
-### Incremental Persistence Algorithm (IPA)
+### Incremental Persistence Algorithm
 
 This software implements the algorithms for computing topological persistence 
 as described in [1].  Given a 3D point cloud, the software computes the zeroth 
